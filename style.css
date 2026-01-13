@@ -26,7 +26,7 @@ body {
 .navbar {
     position: fixed;
     top: 0;
-    width: 94%;
+    width: 100%;
     padding: 1rem 10%;
     display: flex;
     justify-content: space-between;
@@ -40,6 +40,7 @@ body {
 .logo {
     font-size: 1.5rem;
     font-weight: 800;
+    letter-spacing: 3px;
 }
 
 .logo span { color: var(--accent-color); }
@@ -603,6 +604,7 @@ footer::before {
     .navbar {
         padding: 0.8rem 5%;
         height: 60px;
+        width: 100%;
     }
     
     .logo {
@@ -623,6 +625,7 @@ footer::before {
         padding-top: 2rem;
         gap: 2rem;
         transition: left 0.3s ease;
+        z-index: 999;
     }
     
     .nav-links.active {
@@ -640,6 +643,7 @@ footer::before {
     .hamburger {
         display: flex;
     }
+    
     .hero { 
         flex-direction: column; 
         justify-content: center; 
@@ -648,8 +652,6 @@ footer::before {
         padding: 2rem 5%;
         padding-top: 5rem;
     }
-    
-    .nav-links { display: none; }
     
     .hero-content h1 { font-size: 2.5rem; }
     

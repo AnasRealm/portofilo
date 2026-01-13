@@ -45,18 +45,25 @@ const animateSkillBars = () => {
 document.addEventListener('DOMContentLoaded', animateSkillBars);
 
 // Mobile Navigation Toggle
-const hamburger = document.getElementById('hamburger');
-const navLinks = document.querySelector('.nav-links');
+document.addEventListener('DOMContentLoaded', function() {
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.querySelector('.nav-links');
 
-hamburger.addEventListener('click', () => {
-    hamburger.classList.toggle('active');
-    navLinks.classList.toggle('active');
-});
-
-// Close mobile menu when clicking on a link
-document.querySelectorAll('.nav-links a').forEach(link => {
-    link.addEventListener('click', () => {
-        hamburger.classList.remove('active');
-        navLinks.classList.remove('active');
-    });
+    if (hamburger && navLinks) {
+        hamburger.addEventListener('click', () => {
+            console.log('Hamburger clicked'); // للتأكد من أن الكود يعمل
+            hamburger.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+        
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navLinks.classList.remove('active');
+            });
+        });
+    } else {
+        console.error('Hamburger or nav-links not found');
+    }
 });
