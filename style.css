@@ -664,7 +664,8 @@ footer::before {
     
     .img-box img { 
         width: 280px; 
-        height: 280px; 
+        height: 280px;
+        margin-top: 50px;
     }
     
     .hero-btns {
