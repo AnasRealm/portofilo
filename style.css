@@ -629,7 +629,8 @@ footer::before {
         padding: 0.8rem 5%;
         height: 60px;
         width: 100%;
-        margin-bottom: 50px;
+        margin-bottom: 100px;
+        margin-bottom: 100px;
     }
 
     .logo {
@@ -674,7 +675,6 @@ footer::before {
         justify-content: center;
         text-align: center;
         gap: 3rem;
-        padding: 2rem 5%;
         margin-top: 100px;
         margin-bottom: 70px;
         padding-top: 100px;
