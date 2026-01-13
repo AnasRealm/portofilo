@@ -693,10 +693,13 @@ footer::before {
         max-width: 100%;
     }
 
+    .img-box {
+        padding-top: 50px;
+    }
+
     .img-box img {
         width: 280px;
         height: 280px;
-        padding-top: 50px;
     }
 
     .hero-btns {
