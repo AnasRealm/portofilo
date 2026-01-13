@@ -650,7 +650,8 @@ footer::before {
         text-align: center;
         gap: 3rem;
         padding: 2rem 5%;
-        padding-top: 5rem;
+        margin-top: 70px;
+        margin-bottom: 40px;
     }
     
     .hero-content h1 { font-size: 2.5rem; }
@@ -665,7 +666,6 @@ footer::before {
     .img-box img { 
         width: 280px; 
         height: 280px;
-        margin-top: 50px;
     }
     
     .hero-btns {
