@@ -677,6 +677,7 @@ footer::before {
         padding: 2rem 5%;
         margin-top: 100px;
         margin-bottom: 70px;
+        padding-top: 50px;
     }
 
     .hero-content h1 {
@@ -695,6 +696,7 @@ footer::before {
     .img-box img {
         width: 280px;
         height: 280px;
+        padding-top: 50px;
     }
 
     .hero-btns {
