@@ -24,7 +24,7 @@ body {
 
 /* Navbar */
 .navbar {
-    position: fixed;
+    position: static;
     top: 0;
     width: 100%;
     padding: 1rem 10%;
@@ -629,6 +629,7 @@ footer::before {
         padding: 0.8rem 5%;
         height: 60px;
         width: 100%;
+        position: relative;
     }
 
     .logo {
@@ -636,17 +637,16 @@ footer::before {
     }
 
     .nav-links {
-        position: fixed;
-        top: 60px;
+        position: absolute;
+        top: 100%;
         left: -100%;
         width: 100%;
-        height: calc(100vh - 60px);
         background: var(--nav-bg);
         backdrop-filter: blur(10px);
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        padding-top: 2rem;
+        padding: 2rem 0;
         gap: 2rem;
         transition: left 0.3s ease;
         z-index: 999;
@@ -673,7 +673,7 @@ footer::before {
         justify-content: center;
         text-align: center;
         gap: 2rem;
-        padding: 8rem 5% 3rem;
+        padding: 2rem 5%;
         margin-top: 0;
     }
 
