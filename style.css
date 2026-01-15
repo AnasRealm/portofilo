@@ -675,6 +675,7 @@ footer::before {
         gap: 2rem;
         padding: 2rem 5%;
         margin-top: 60px;
+        padding-bottom: 40px;
     }
 
     .hero-content {
