@@ -24,8 +24,10 @@ body {
 
 /* Navbar */
 .navbar {
-    position: static;
+    position: fixed;
     top: 0;
+    left: 0;
+    right: 0;
     width: 100%;
     padding: 1rem 10%;
     display: flex;
@@ -111,6 +113,7 @@ body {
     gap: 8%;
     position: relative;
     overflow: hidden;
+    margin-top: 70px;
 }
 
 .hero-bg {
@@ -628,8 +631,7 @@ footer::before {
     .navbar {
         padding: 0.8rem 5%;
         height: 60px;
-        width: 100%;
-        position: relative;
+        position: fixed;
     }
 
     .logo {
@@ -674,7 +676,7 @@ footer::before {
         text-align: center;
         gap: 2rem;
         padding: 2rem 5%;
-        margin-top: 0;
+        margin-top: 60px;
     }
 
     .hero-content {
