@@ -24,10 +24,8 @@ body {
 
 /* Navbar */
 .navbar {
-    position: fixed;
+    position: static;
     top: 0;
-    left: 0;
-    right: 0;
     width: 100%;
     padding: 1rem 10%;
     display: flex;
@@ -630,8 +628,10 @@ footer::before {
 @media (max-width: 768px) {
     .navbar {
         padding: 0.8rem 5%;
-        height: 60px;
-        position: fixed;
+        height: 60px;  
+         width: 95%;
+        position: relative;
+        margin: 10px auto;
     }
 
     .logo {
