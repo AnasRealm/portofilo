@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 200">
+  <defs>
+    <linearGradient id="techGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00C6FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0072FF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background (Optional: Dark tech background for contrast) -->
+  <rect width="500" height="200" fill="#0f172a" rx="15" />
+
+  <!-- Logo Group -->
+  <g transform="translate(70, 60)" fill="none" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
+    
+    <!-- Letter A (Left) -->
+    <!-- Styled as an upward arrow/triangle without crossbar -->
+    <path d="M 10 90 L 45 10 L 80 90" stroke="url(#techGradient)" />
+    
+    <!-- Letter N -->
+    <!-- Connected nodes style -->
+    <path d="M 105 90 L 105 10 L 165 90 L 165 10" stroke="#ffffff" />
+    
+    <!-- Letter A (Right) -->
+    <path d="M 190 90 L 225 10 L 260 90" stroke="#ffffff" />
+    
+    <!-- Letter S -->
+    <!-- Sharp, digital S -->
+    <path d="M 320 20 L 290 20 L 290 50 L 320 50 L 320 80 L 290 80" stroke="#ffffff" />
+    
+    <!-- Tech Accents (Dots/Nodes) -->
+    <!-- A glowing dot inside the N to represent data/tech core -->
+    <circle cx="105" cy="10" r="6" fill="#00C6FF" stroke="none" />
+    <circle cx="165" cy="90" r="6" fill="#00C6FF" stroke="none" />
+
+  </g>
+
+  <!-- Tagline (Optional) -->
+  <text x="250" y="170" font-family="Arial, sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle" letter-spacing="3" style="text-transform: uppercase;">
+    Technology Solutions
+  </text>
+</svg>
